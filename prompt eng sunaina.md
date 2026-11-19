@@ -73,20 +73,6 @@ Priority: Accuracy, security, and context understanding.
 
 My order says delivered, but I haven’t received anything. 
 Delivery
-I don’t want my money back. Just send me another product because this one is broken.
-Defect
-Payment successful, but my order still shows payment pending. 
-Payment 
-I cancelled my order yesterday, so why is the courier still calling me? 
-Cancellation
-The product is perfect, but I accidentally ordered two. Can I send one back?
-Return
-My refund says completed, but my bank balance hasn’t changed.
-Refund
-Tracking hasn’t moved for five days. Is my parcel enjoying a vacation?
-Shipping
-I received the wrong colour, and honestly, I don’t want to keep it.
-Return
 
 
 2. Problem Statement: Sentiment Analysis

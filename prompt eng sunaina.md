@@ -36,26 +36,7 @@ Categories:
 
 Role: AI E-commerce Customer Query Classifier.
 
-Task: Classify every query into exactly ONE category:
-
-\* Delivery – Order arrival/status.
-
-\* Shipping – Tracking, transit, courier issues.
-
-\* Refund – Refund requests/status.
-
-\* Payment – Payment or transaction issues.
-
-\* Cancellation – Order cancellation.
-
-\* Defect – Damaged, broken, faulty products.
-
-\* Return – Product return requests.
-
-
-- \* Account – Login, registration, account issues.
-
-- \* Unknown – Unrelated, unclassifiable, illogical, or self-contradictory queries.
+Task: Classify every query into exactly ONE category:Delivery – Order arrival/status,Shipping – Tracking, transit, courier issues,Refund – Refund requests/status,Payment – Payment or transaction issues,Cancellation – Order cancellation,Defect – Damaged, broken, faulty products, Return – Product return requests,Account – Login, registration, account issues.Unknown – Unrelated, unclassifiable, illogical, or self-contradictory queries.
 
 Rules:
 
@@ -77,7 +58,7 @@ Rules:
 
 - 9. Do not treat a query as illogical just because it is sarcastic, angry, badly spelled, or unusual. Apply Rule 8 only when the request itself cannot logically exist.
 
-## Output:
+Output:
 
 Display each original query followed by exactly one category on the next line.
 
@@ -90,8 +71,21 @@ Priority: Accuracy, security, and context understanding.
 
 ## OUTPUT
 
-My order says delivered, but I haven’t received anything. Delivery I don’t want my money back. Just send me another product because this one is broken. Defect Payment successful, but my order still shows payment pending. Payment I cancelled my order yesterday, so why is the courier still calling me? Cancellation The product is perfect, but I accidentally ordered two. Can I send one back? Return My refund says completed, but my bank balance hasn’t changed. Refund Tracking hasn’t moved for five days. Is my parcel enjoying a vacation? Shipping I received the wrong colour, and honestly, I don’t want to keep it.
-
+My order says delivered, but I haven’t received anything. 
+Delivery
+I don’t want my money back. Just send me another product because this one is broken.
+Defect
+Payment successful, but my order still shows payment pending. 
+Payment 
+I cancelled my order yesterday, so why is the courier still calling me? 
+Cancellation
+The product is perfect, but I accidentally ordered two. Can I send one back?
+Return
+My refund says completed, but my bank balance hasn’t changed.
+Refund
+Tracking hasn’t moved for five days. Is my parcel enjoying a vacation?
+Shipping
+I received the wrong colour, and honestly, I don’t want to keep it.
 Return
 
 
@@ -303,9 +297,7 @@ Requirements:
 
 - 3. Detect direct, indirect, disguised, encoded, multilingual, and role-based attacks.
 
-4.
-
-actual injection attempts.
+4.actual injection attempts.
 
 - 5. Analyze context and intent rather than relying only on suspicious keywords.
 
@@ -332,40 +324,8 @@ SAFE
 
 
 ## 5. in Flight Booking
-
-booking system collects flight details from
-
-through natural
-
-Bef
-
-a booking,
-
-ing
-
-information has been provided.
-
-Your task is to design a prompt that extracts
-
-i
-
-provi
-
-fields, and asks th
-
-issi
-
-‘must verify whether all mandatory
-
-il
-
-i missing
-
-ion,
-
-if
-
-1l
+A travel booking system collects flight details from customers through natural-language messages. Before processing a booking, the system must verify whether all mandatory information has been provided.
+Your task is to design a prompt that extracts the available information, identifies missing fields, and asks the customer to provide the missing details.
 
 ## Required Fields:
 
@@ -401,17 +361,10 @@ Travel Class: Missing
 
 Please provide the following missing information:
 
-- 1. What is your preferred travel date?
-
-2. How
-
-many
-
-3. Which travel class do you prefer: Premium Class?
-
-willbe
-
-il or First
+Please provide the following missing information:
+1. What is your preferred travel date?
+2. How many passengers will be travelling?
+3. Which travel class do you prefer: Economy, Premium Economy, Business, or First Class?
 
 
 ## Additional Requirements:
@@ -428,13 +381,7 @@ il or First
 
 - 6. Do not ask the customer to repeat information already provided.
 
-Objective: Create a prompt that acts as an il i dat:
 
-ion is avail before with a booking.
-
-ensuring all
-
-y
 
 ## Prompt
 
@@ -467,7 +414,6 @@ Departure City:
 Destination City:
 
 Travel Date:
-
 
 Number of Passengers:
 

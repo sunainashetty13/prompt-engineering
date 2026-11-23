@@ -241,6 +241,10 @@ Ask concise questions only for missing or unclear fields. If all required detail
 Output constraints: Preserve the exact field order and labels. Do not invent information, omit required fields, add unnecessary details or claim a booking has been made. Keep output structured and concise.
 
 
+
+
+
+
 #6. Problem Statement: Scholarship Eligibility Assessment: Develop an AI assistant that evaluates scholarship eligibility based on a student's academic score and annual family income. The eligibility criteria require a minimum score of 85% and family income not exceeding ₹3,00,000. Both conditions must be satisfied.Input and Expected Output: Score: 90%, Income: ₹2,50,000 – ELIGIBLE; Score: 80%, Income: ₹2,00,000 – NOT_ELIGIBLE; Score: 95%, Income: ₹4,00,000 – NOT_ELIGIBLE; Score: 90%, Income: ₹2,00,000 – ELIGIBLE; Score: 90%, Income not provided – INSUFFICIENT_DATA; Score not provided, Income: ₹2,00,000 – INSUFFICIENT_DATA; Score and income not provided – INSUFFICIENT_DATA.
 
 ## PROMPT
@@ -274,6 +278,10 @@ Rules:
 - \- Never assume, invent, or infer missing values. Ask for clarification when needed.
 
 - \- Return only the applicable status label(s): ELIGIBLE, NOT_ELIGIBLE, or INSUFFICIENT_DATA
+
+
+
+
 
 
 7. Problem Statement: Medical Triage Classification: Develop an AI assistant that classifies patient symptoms into urgency levels to determine how quickly medical attention is needed. The categories are EMERGENCY (life-threatening symptoms requiring immediate attention), URGENT (requiring prompt medical assessment), ROUTINE (mild symptoms suitable for a non-emergency appointment), and INSUFFICIENT_DATA (information is insufficient to classify). Input: "I have severe chest pain and difficulty breathing." Expected Output: EMERGENCY
@@ -315,6 +323,9 @@ Classify symptoms based on severity, context and meaning.
 - Return exactly one label: EMERGENCY, URGENT, ROUTINE, or INSUFFICIENT_DATA.
 
 
+
+
+
 8. Problem Statement: Context-Aware Email Generation: Develop an AI assistant that drafts professional emails based on a user's situation and requirements, following the specified tone, length, and content constraints. Input: "Write an email to my manager requesting two days of leave due to a family function. Keep it polite and professional, and limit it to 50 words." Expected Output: Subject: Leave Request. Dear Manager, I would like to request two days of leave to attend a family function. Kindly approve my request. Thank you for your consideration. Best regards. Constraints: Maintain the requested tone and professionalism, and do not invent personal details.
 
 ## PROMPT
@@ -346,6 +357,10 @@ Generate emails based on the user's purpose, audience, situation and requirement
 - Include only relevant content and ensure the email is natural, clear and contextually appropriate.
 
 - Output only the email in the appropriate format, without explanations or commentary outside it; if clarification is necessary, ask only the specific question.
+
+
+
+
 
 
 9. Problem Statement: Intelligent Meeting Scheduler: Develop an AI assistant that schedules meetings based on participants' availability, meeting duration, and scheduling constraints, selecting a suitable time slot without violating restrictions.Input: Available slots: 10:00 AM–11:00 AM, 11:00 AM–12:00 PM, 2:00 PM–3:00 PM. Constraints: Meeting duration is 1 hour, manager is unavailable from 10:00 AM to 12:00 PM, all participants must be available, and meetings must be scheduled before 4:00 PM.Expected Output: 2:00 PM–3:00 PM.Additional Requirements: Select only from the provided time slots and satisfy all scheduling constraints.
@@ -381,6 +396,9 @@ Rules:
 - Output only the selected meeting time or a brief clarification message, without unnecessary explanations.
 
 - give some inputs for this
+
+
+
 
 
 10 Problem Statement: Design an AI-powered prompt that transforms unstructured information about a student's projects, internships or achievements into concise, professional and ATS-friendly resume bullet points highlighting their contributions, technical skills and measurable impact without fabricating details

@@ -241,7 +241,7 @@ Ask concise questions only for missing or unclear fields. If all required detail
 Output constraints: Preserve the exact field order and labels. Do not invent information, omit required fields, add unnecessary details or claim a booking has been made. Keep output structured and concise.
 
 
-6. Problem Statement: Scholarship Eligibility Assessment: Develop an AI assistant that evaluates scholarship eligibility based on a student's academic score and annual family income. The eligibility criteria require a minimum score of 85% and family income not exceeding ₹3,00,000. Both conditions must be satisfied.Input and Expected Output: Score: 90%, Income: ₹2,50,000 – ELIGIBLE; Score: 80%, Income: ₹2,00,000 – NOT_ELIGIBLE; Score: 95%, Income: ₹4,00,000 – NOT_ELIGIBLE; Score: 90%, Income: ₹2,00,000 – ELIGIBLE; Score: 90%, Income not provided – INSUFFICIENT_DATA; Score not provided, Income: ₹2,00,000 – INSUFFICIENT_DATA; Score and income not provided – INSUFFICIENT_DATA.
+#6. Problem Statement: Scholarship Eligibility Assessment: Develop an AI assistant that evaluates scholarship eligibility based on a student's academic score and annual family income. The eligibility criteria require a minimum score of 85% and family income not exceeding ₹3,00,000. Both conditions must be satisfied.Input and Expected Output: Score: 90%, Income: ₹2,50,000 – ELIGIBLE; Score: 80%, Income: ₹2,00,000 – NOT_ELIGIBLE; Score: 95%, Income: ₹4,00,000 – NOT_ELIGIBLE; Score: 90%, Income: ₹2,00,000 – ELIGIBLE; Score: 90%, Income not provided – INSUFFICIENT_DATA; Score not provided, Income: ₹2,00,000 – INSUFFICIENT_DATA; Score and income not provided – INSUFFICIENT_DATA.
 
 ## PROMPT
 

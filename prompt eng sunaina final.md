@@ -278,6 +278,7 @@ Rules:
 - \- Never assume, invent, or infer missing values. Ask for clarification when needed.
 
 - \- Return only the applicable status label(s): ELIGIBLE, NOT_ELIGIBLE, or INSUFFICIENT_DATA
+- - If no applicant information is provided, ask the user to provide the required inputs: Score (%) and Annual Family Income (₹). Do not return a status label until the information is provided.
 
 
 
